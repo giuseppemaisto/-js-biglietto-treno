@@ -28,5 +28,19 @@ const eta = parseInt(prompt('quanti anni hai?'))
 
 console.log(eta)
 
+//3 - calcolare costo biglietto 
 const costo = num_km * 0.21
 console.log(costo)
+
+//4 -  SE l'utente è minoerenne 
+if (eta < 18){
+    let sconto = costo * 0.80
+    console.log(sconto)
+}else if(eta >= 65){
+    let sconto = costo * 0.60 
+    console.log(sconto)
+}
+else {
+   sconto = costo 
+    console.log(costo)
+}
