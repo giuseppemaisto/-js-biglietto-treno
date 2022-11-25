@@ -44,3 +44,8 @@ else {
    sconto = costo 
     console.log(costo)
 }
+
+//5 - stampare il prezzo da pagare con massimo 2 decimali*/
+const costo_arrot = costo.toFixed(2)
+
+console.log(costo_arrot)
