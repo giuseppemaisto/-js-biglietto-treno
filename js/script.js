@@ -49,3 +49,8 @@ else {
 const costo_arrot = costo.toFixed(2)
 
 console.log(costo_arrot)
+
+
+document.getElementById('km_percorsi').innerHTML = num_km;
+document.getElementById('costo').innerHTML = costo;
+document.getElementById('costo').innerHTML = sconto;
